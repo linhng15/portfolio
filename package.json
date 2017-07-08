@@ -4,7 +4,9 @@
   "description": "Single-Page App",
   "main": "public/index.html",
   "scripts": {
-    "dev": "./node_modules/.bin/webpack-dev-server --content-base public --inline --hot",
+    "start": "node server.js",
+    "build": "webpack -w",
+    "dev": "webpack-dev-server --content-base src --inline --hot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,17 +20,12 @@
   },
   "homepage": "https://github.com/linhng15/portfolio#readme",
   "dependencies": {
-    "body-parser": "^1.17.2",
-    "express": "^4.13.4",
-    "mongoose": "^4.4.20",
-    "morgan": "^1.7.0",
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
     "react-router": "^2.4.1",
     "webpack-dev-server": "^2.5.0"
   },
   "devDependencies": {
-    "axios": "^0.12.0",
     "babel-core": "^6.9.1",
     "babel-loader": "^6.2.4",
     "babel-plugin-add-module-exports": "^0.2.1",
