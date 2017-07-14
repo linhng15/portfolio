@@ -19,6 +19,7 @@ export default class Nav extends React.Component {
     const { collapsed } = this.state;
     const aboutClass = location.pathname === "/" ? "active" : "";
     const applicationClass = location.pathname.match(/^\/application/) ? "active" : "";
+    const resumeClass = location.pathname.match(/^\/resume/) ? "active" : "";
     const navClass = collapsed ? "collapse" : "";
 
     return (
@@ -39,6 +40,9 @@ export default class Nav extends React.Component {
               </li>
               <li class={applicationClass}>
                 <Link to="application" onClick={this.toggleCollapse.bind(this)}>Application</Link>
+              </li>
+              <li class={resumeClass}>
+                <Link to="resume" onClick={this.toggleCollapse.bind(this)}>Resume</Link>
               </li>
             </ul>
           </div>
