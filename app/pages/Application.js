@@ -7,23 +7,30 @@ export default class Application extends React.Component {
    
     return (
       <div>
+        <h2> Portfolio </h2>
+        <hr/>
+        <hr/>
         <div class="col-md-4">
           <h4>Shuttle Extravaganza</h4>
           <p>MEAN </p>
-          <a class="btn btn-default" href="#">More Info</a>
+          <p>Technologies: React, API, MongoDB, HTML, Bootstrap, JavaScript, jQuery, Pencil</p>
+          <center><a href="https://agile-chamber-59717.herokuapp.com/">View it Live</a></center>
+          <center><a href="https://github.com/linhng15/Extravaganza">Code Source</a></center>
         </div>
 
         <div class="col-md-4">
           <h4>Mini Library Book Tracker (MLBT)</h4>
           <p>Full-stack library application that efficiently tracks the books at the Northwestern University department of Material Science and Engineering. Facilitates access for students and faculty. </p>
-          <a class="btn btn-default" href="#">More Info</a>
+          <p>Technologies: HTML, Express-Handlebars, CSS, Bootstrap, JavaScript, jQuery, MySQL, Pencil</p>
+          <center><a href="https://github.com/linhng15/mlbt">Code Source</a></center>
         </div>
 
 
         <div class="col-md-4">
           <h4>Bodyshop Profit & Loss</h4>
           <p>Developement of a profit and loss sheet for the collision repair industry.</p>
-          <a class="btn btn-default" href="#">More Info</a>
+          <p>Technologies: HTML, CSS, Bootstrap, JavaScript, jQuery, Firebase, Pencil</p>
+          <center><a href="https://github.com/linhng15/Body-Shop-Profits-Loss">Code Source</a></center>
         </div>
       </div>
     );
