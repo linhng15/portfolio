@@ -15,7 +15,7 @@ export default class Resume extends React.Component {
 		            <br/>
 		            <div class="col-lg-9">
 					    <div class="resumeIframe">
-					        <iframe src="https://drive.google.com/file/d/0B-DDs62_P7pEYjVpVklpVXhDNEU/preview" width="640" height="480"></iframe>
+					        <iframe src="https://drive.google.com/file/d/0B-DDs62_P7pEQ3YxczlKUGNmS3M/preview" width="640" height="480"></iframe>
 					    </div>
 		            </div>
 		        </div>

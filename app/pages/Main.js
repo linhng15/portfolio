@@ -30,10 +30,7 @@ export default class Main extends React.Component {
             </div>
 
             <div id="malleableContainer" class="col-lg-8">
-
-
               {this.props.children}
-
             </div>
           </div>
           <Footer/>
