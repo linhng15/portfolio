@@ -19,29 +19,6 @@ export default class Resume extends React.Component {
 					    </div>
 		            </div>
 		        </div>
-		        <div class="row">
-		            <div class="col-lg-12">
-		                <h5>WORK</h5>
-		            </div>
-		        </div>
-		        <div class="row">
-		            <br/>
-		            <div class="col-lg-6 col-lg-offset-3">
-		                <p>
-		                    Job title
-		                    <ul>
-		                        <li>job description</li>
-		                       
-		                    </ul> 
-		                </p>
-		            </div>
-		            <div class="col-lg-3">
-		                <p>
-		                    <sm>year</sm>
-		                </p>
-		            </div>
-		            
-		        </div>
 		        <br/>
 		        <br/>
 	   		</div>
