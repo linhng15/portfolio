@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node server.js",
     "build": "webpack -w",
+    "deve": "webpack & node server.js",
     "dev": "webpack-dev-server --content-base src --inline --hot",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -22,7 +23,6 @@
   "dependencies": {
     "react": "^15.1.0",
     "react-dom": "^15.1.0",
-    "react-pdf": "^1.8.2",
     "react-router": "^2.4.1",
     "webpack-dev-server": "^2.5.0"
   },
