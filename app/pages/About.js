@@ -19,52 +19,6 @@ export default class About extends React.Component {
             </div>
           </div>
         </div>
-
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="w3-content w3-display-container">
-
-              <div class="w3-display-container mySlides">
-                <img src="#"/>
-                <div class="w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
-                  Trolltunga, Norway
-                </div>
-              </div>
-
-              <div class="w3-display-container mySlides">
-                <img src="#"/>
-                <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
-                  Northern Lights, Norway
-                </div>
-              </div>
-
-              <div class="w3-display-container mySlides">
-                <img src="#"/>
-                <div class="w3-display-topleft w3-large w3-container w3-padding-16 w3-black">
-                  Beautiful Mountains
-                </div>
-              </div>
-
-              <div class="w3-display-container mySlides">
-                <img src="#"/>
-                <div class="w3-display-topright w3-large w3-container w3-padding-16 w3-black">
-                  The Rain Forest
-                </div>
-              </div>
-
-              <div class="w3-display-container mySlides">
-                <img src="#"/>
-                <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
-                  Mountains!
-                </div>
-              </div>
-
-              <button class="w3-button w3-display-left w3-black" onClick="plusDivs(-1)">&#10094;</button>
-              <button class="w3-button w3-display-right w3-black" onClick="plusDivs(1)">&#10095;</button>
-
-            </div>
-          </div>
-        </div>
       </div>
     );
   }
