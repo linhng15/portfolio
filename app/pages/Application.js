@@ -12,7 +12,7 @@ export default class Application extends React.Component {
         <hr/>
         <div class="col-md-4">
           <h4>Shuttle Extravaganza</h4>
-          <p>MEAN </p>
+          <p>Shuttle Extravaganza is a fun, cool apps for everyone in Chicago to find events to attend. Users can saved the events and find other adventure goer who also would like to share a ride. </p>
           <p>Technologies: React, API, MongoDB, HTML, Bootstrap, JavaScript, jQuery, Pencil</p>
           <center><a href="https://agile-chamber-59717.herokuapp.com/">View it Live</a></center>
           <center><a href="https://github.com/linhng15/Extravaganza">Code Source</a></center>
@@ -20,7 +20,7 @@ export default class Application extends React.Component {
 
         <div class="col-md-4">
           <h4>Mini Library Book Tracker (MLBT)</h4>
-          <p>Full-stack library application that efficiently tracks the books at the Northwestern University department of Material Science and Engineering. Facilitates access for students and faculty. </p>
+          <p>MLBT is an application that efficiently tracks the books at the Northwestern University department of Material Science and Engineering. Facilitates access for students and faculty. </p>
           <p>Technologies: HTML, Express-Handlebars, CSS, Bootstrap, JavaScript, jQuery, MySQL, Pencil</p>
           <center><a href="https://github.com/linhng15/mlbt">Code Source</a></center>
         </div>
