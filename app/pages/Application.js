@@ -9,6 +9,7 @@ export default class Application extends React.Component {
       <div>
         <h2> Portfolio </h2>
         <hr/>
+        <p>Below are collaborative application development with other classmates.</p>
         <hr/>
         <div class="col-md-4">
           <h4>Shuttle Extravaganza</h4>
