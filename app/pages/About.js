@@ -20,6 +20,8 @@ export default class About extends React.Component {
               <p>Although I’m not the best developer in the field, I have the confidence to do what is necessary to complete my task, my work experience is quite diversify, therefore I’m capable of handling any issues that may arise.  </p>
               <p>Aside from technology, I enjoys traveling and cooking. </p>
 
+              <center><iframe src="https://giphy.com/embed/3kqFf9VOnB292" width="480" height="480" frameBorder="0" allowFullScreen></iframe></center>
+
             </div>
           </div>
         </div>
